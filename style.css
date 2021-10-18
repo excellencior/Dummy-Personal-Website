@@ -1,0 +1,121 @@
+.section-1 {
+    /* border: 3px solid green; */
+    background-image: url("Images/header-bg.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0% 8% 0% 8%;
+}
+.half-width { /* div */
+    width: 42%;
+    display: inline-block;
+    /* float: left; */
+    margin-left: 2%;
+    padding: 2%;
+    padding-top: 2%;
+    vertical-align: middle;
+}
+.half-width img {
+    width: 100%;
+    height: auto;
+    /* border: 5px solid green; */
+}
+.half-width h2 {
+    font-weight: 400;
+    font-family: Arial;
+    text-align: left;
+    font-size: 35px;
+}
+.left {
+    position: relative;
+    right: -30%;
+}
+.half-width .name {
+    font-weight: bold;
+    font-size: 50px;
+    color: crimson;
+}
+p {
+    font-family: Arial;
+    font-size: 15px;
+    color: dimgray;
+}
+.button {
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: crimson;
+}
+.button:hover {
+    background-color: darkcyan;
+}
+.section-2 {
+    /* border: 3px solid green; */
+    padding: 0% 8% 0% 8%;
+    background-image: url("Images/biography-bg.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-3 {
+    background-image: url("Images/latest-work-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 0% 3% 0% 3%; */
+}
+.pos-3 {
+    margin-top: 10%;
+}
+.hi {
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    box-shadow: 2px 2px 10px;
+}
+.hi img {
+    display: inline-block;
+    /* margin-left: 5%; */
+    /* float: left; */
+    width: 100%;
+    height: 80%;
+}
+#latest-work {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    color: crimson;
+}
+.foot-note {
+    margin: auto;
+    width: 30%;
+    padding: 10px 15px;
+    background-color: crimson;
+    border-radius: 20px;
+}
+.foot-note h4 {
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+}
+.foot-note p {
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+}
+footer {
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* section {
+    border: 3px solid green;
+}
+div {
+    border: 2px solid yellow;
+} */
